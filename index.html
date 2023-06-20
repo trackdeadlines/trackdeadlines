@@ -100,8 +100,8 @@
             const PADDING_MINUTES_TO_DEADLINE = 2;
             let global_timer = null;
             // Sleep time
-            let work_stops = moment("10:00pm", "h:mma");
-            let work_starts = moment("7:15am", "h:mma");
+            let work_stops = moment("11:59pm", "h:mma");
+            let work_starts = moment("9:15am", "h:mma");
             let midnight = moment("0:00", "h:mm");
             let non_work_time = work_starts - midnight;
             midnight.add(1, "days");
