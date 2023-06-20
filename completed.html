@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <title>Completed</title>
+    <meta type="charset" value="utf-8">
+    <meta type="description" value="overview of app categories">
+    <meta type="keywords" value="to do, app, overview">
+    <link rel="icon" href="images/to-do-list.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <p id="completed-para">
+
+    </p>
+    <script>
+        document.getElementById("completed-para").innerText = localStorage.getItem("finishedTasksNum") + "\n\n" + localStorage.getItem("finishedTasks");
+    </script>
+</body>
+</html>
